@@ -1,0 +1,327 @@
+* {
+    font-family: 'Monda', "sans-serif" !important;
+}
+
+body {
+    background-color: #1D8787 !important;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 15%;
+    margin-top: 2%;
+}
+
+#bem-vindo-mobile {
+    display: none;
+}
+
+
+.loginStyle {
+    border-radius: 15px;
+    border: 3px solid #18D9B5;
+    background: #F3F3F3;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+.senhaStyle {
+    border-radius: 15px;
+    border: 3px solid #18D9B5;
+    background: #F3F3F3;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+h1 {
+
+    font-size: 85px !important;
+    text-align: left;
+    color: #F2F2F2 !important;
+    font-weight: bold !important;
+    margin-top: 13% !important;
+    margin-right: 20%;
+    padding-left: 4%;
+    border-left: 10px solid #18D9B5;
+
+
+
+}
+
+.principal {
+
+    display: flex;
+    width: 100%;
+    margin-top: 9%;
+}
+
+.esquerdo {
+
+    width: 50%;
+
+}
+
+.direito {
+
+    width: 50%;
+
+}
+
+.loginStyle,
+.senhaStyle {
+    height: 38%;
+    width: 70%;
+    margin-bottom: 1.5%;
+
+
+}
+
+form {
+    width: 100%;
+    height: 200px;
+
+}
+
+#divLink {
+    text-align: right;
+    width: 103.5%;
+}
+
+.a1 {
+    color: #18D9B5;
+    text-decoration: none;
+}
+
+.a1:hover {
+    font-size: 95%;
+
+}
+
+.a1:active {
+    color: #F2F2F2;
+}
+
+
+
+
+.form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10%;
+}
+
+.form-container .form-group {
+    margin-bottom: 3%;
+    width: 105%;
+
+}
+
+.form-container .btn-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.form-container .btn-container button {
+    flex-basis: 38%;
+}
+
+.btn {
+    height: 65px;
+    margin-top: 17%;
+    width: 5px;
+}
+
+.btn-primary {
+    margin-left: 10%;
+    border-radius: 20px 0px 0px 20px !important;
+    background-color: #18D9B5 !important;
+    border: 3px solid #18D9B5 !important;
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    border-radius: 0px 20px 20px 0px !important;
+    background: #F3F3F3 !important;
+    border: 3px solid #18D9B5 !important;
+    color: #115959 !important;
+    font-weight: bold !important;
+}
+
+.form-control {
+    border-radius: 15px !important;
+    height: 70px;
+    border: 3px solid #18D9B5 !important;
+    text-align: left;
+    background-color: #F3F3F3 !important;
+}
+
+.form-control:hover {
+    border-color: #D0D0D0 !important;
+    transition: 0.15s !important;
+
+}
+
+.form-control:focus {
+
+    box-shadow: 0px 0px 10px #115959 !important;
+}
+
+.form-control::placeholder {
+    color: #18D9B5 !important;
+    opacity: 55% !important;
+
+}
+
+.btn-primary:hover {
+    box-shadow: 0px 0px 10px #115959 !important;
+    transition: 1s;
+}
+
+.btn-secondary:hover {
+    box-shadow: 0px 0px 10px #115959 !important;
+    transition: 0.5s;
+}
+
+.btn-primary:active {
+    font-size: 98%
+}
+
+.btn-secondary:active {
+    font-size: 98%;
+}
+
+#imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42%;
+    margin-left: 12%
+}
+
+.imgGoogle,
+.imgFacebook,
+.imgApple {
+    height: 40px;
+    width: 40px;
+    align-items: center;
+
+}
+
+.img1,
+.img2,
+.img3 {
+    padding: 2%;
+    background-color: #ECE9EC;
+    border-radius: 100%;
+    margin: auto 2%;
+}
+
+#p1 {
+    margin-bottom: 0% !important;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 10%;
+    color: #F2F2F2;
+}
+
+#bola1 {
+    position: absolute;
+    bottom: 0;
+    width: 35%;
+}
+
+#bola2 {
+    position: absolute;
+    width: 25%;
+}
+
+@media screen and (max-width: 2095px) {
+    #bola1 {
+        position: absolute;
+        bottom: 0;
+        width: 37%;
+    }
+
+    #bola2 {
+        position: absolute;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1744px) {
+    #bola1 {
+        position: absolute;
+        bottom: 0;
+        width: 45%;
+    }
+
+    #bola2 {
+        position: absolute;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1536px) {
+    #bola1 {
+        position: absolute;
+        bottom: 0;
+        width: 55%;
+    }
+
+    #bola2 {
+        position: absolute;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #bola1 {
+        position: absolute;
+        bottom: 0;
+        width: 70%;
+    }
+
+    #bola2 {
+        position: absolute;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    #bem-vindo-mobile {
+        border: none;
+        text-align: left;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 13%;
+        margin-left: 7%;
+        font-size: 50px !important;
+        display: block;
+    }
+
+    #bola1 {
+        display: none;
+    }
+
+    #bola2 {
+        display: none;
+    }
+
+    .esquerdo {
+        display: none;
+    }
+}
